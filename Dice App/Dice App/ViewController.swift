@@ -12,6 +12,9 @@ class ViewController: UIViewController {
     
     var randomDiceIndex1: Int = 0
     
+    var randomDiceIndex2:Int = 0
+    
+    
     
     @IBOutlet weak var diceImageView1: UIImageView!
     
