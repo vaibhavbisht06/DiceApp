@@ -30,7 +30,7 @@
                                 <rect key="frame" x="40" y="388" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dice3" translatesAutoresizingMaskIntoConstraints="NO" id="sLD-uj-yZD">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="sLD-uj-yZD">
                                 <rect key="frame" x="261" y="388" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -63,6 +63,7 @@
     <resources>
         <image name="Background" width="444.5" height="414"/>
         <image name="Logo" width="196" height="128"/>
+        <image name="dice1" width="100" height="100"/>
         <image name="dice3" width="100" height="100"/>
     </resources>
 </document>
