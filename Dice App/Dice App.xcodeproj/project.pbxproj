@@ -14,6 +14,9 @@
 		570346B422F1F2AB0013F37B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570346B222F1F2AB0013F37B /* LaunchScreen.storyboard */; };
 		570346BF22F1F2AB0013F37B /* Dice_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570346BE22F1F2AB0013F37B /* Dice_AppTests.swift */; };
 		570346CA22F1F2AB0013F37B /* Dice_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570346C922F1F2AB0013F37B /* Dice_AppUITests.swift */; };
+		57ABCE45234CD0C200E8DBEE /* VAIBHAV BISHT.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 57ABCE44234CD0C200E8DBEE /* VAIBHAV BISHT.jpeg */; };
+		57ABCE46234CD0C200E8DBEE /* VAIBHAV BISHT.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 57ABCE44234CD0C200E8DBEE /* VAIBHAV BISHT.jpeg */; };
+		57ABCE47234CD0C200E8DBEE /* VAIBHAV BISHT.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 57ABCE44234CD0C200E8DBEE /* VAIBHAV BISHT.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,7 @@
 		570346C522F1F2AB0013F37B /* Dice AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dice AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		570346C922F1F2AB0013F37B /* Dice_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_AppUITests.swift; sourceTree = "<group>"; };
 		570346CB22F1F2AB0013F37B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57ABCE44234CD0C200E8DBEE /* VAIBHAV BISHT.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "VAIBHAV BISHT.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 				570346AD22F1F2AA0013F37B /* Main.storyboard */,
 				570346B022F1F2AB0013F37B /* Assets.xcassets */,
 				570346B222F1F2AB0013F37B /* LaunchScreen.storyboard */,
+				57ABCE44234CD0C200E8DBEE /* VAIBHAV BISHT.jpeg */,
 				570346B522F1F2AB0013F37B /* Info.plist */,
 			);
 			path = "Dice App";
@@ -230,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				570346B422F1F2AB0013F37B /* LaunchScreen.storyboard in Resources */,
+				57ABCE45234CD0C200E8DBEE /* VAIBHAV BISHT.jpeg in Resources */,
 				570346B122F1F2AB0013F37B /* Assets.xcassets in Resources */,
 				570346AF22F1F2AA0013F37B /* Main.storyboard in Resources */,
 			);
@@ -239,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57ABCE46234CD0C200E8DBEE /* VAIBHAV BISHT.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57ABCE47234CD0C200E8DBEE /* VAIBHAV BISHT.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
