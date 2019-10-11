@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
@@ -40,7 +40,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="388"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="oCg-3c-gMG">
-                                        <rect key="frame" x="71.5" y="114.5" width="271.00000000000006" height="159"/>
+                                        <rect key="frame" x="71.666666666666657" y="114.66666666666669" width="271.00000000000006" height="159"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="271" id="ITy-eX-Bjh"/>
                                             <constraint firstAttribute="height" constant="159" id="Ijf-tt-5m6"/>
@@ -56,7 +56,7 @@
                                 <rect key="frame" x="0.0" y="508" width="414" height="388"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzT-Y0-27e">
-                                        <rect key="frame" x="132.5" y="161" width="149" height="66"/>
+                                        <rect key="frame" x="132.66666666666666" y="161" width="148.99999999999997" height="66"/>
                                         <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.68204195205479456" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="149" id="1pg-6k-Zqt"/>
@@ -107,7 +107,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Background" width="444.5" height="414"/>
+        <image name="Background" width="444.66665649414062" height="414.33334350585938"/>
         <image name="Logo" width="196" height="128"/>
         <image name="dice3" width="100" height="100"/>
         <image name="dice6" width="100" height="100"/>
