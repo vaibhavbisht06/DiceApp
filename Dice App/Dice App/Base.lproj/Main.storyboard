@@ -53,19 +53,30 @@
                                     <constraint firstAttribute="height" constant="120" id="tqe-3h-fXV"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WNf-hB-dwa">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="380"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WNf-hB-dwa">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="388"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bht-c1-nnG">
+                                <rect key="frame" x="0.0" y="508" width="414" height="388"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="bht-c1-nnG" firstAttribute="top" secondItem="uYU-rf-kyX" secondAttribute="bottom" id="3m6-Zl-zHo"/>
+                            <constraint firstItem="WNf-hB-dwa" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="5zi-Jl-iZ4"/>
+                            <constraint firstItem="WNf-hB-dwa" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6N4-3n-8Lb"/>
                             <constraint firstItem="uYU-rf-kyX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bf0-gL-T2E"/>
                             <constraint firstItem="GdM-Wr-HT9" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="FY9-VQ-Xgi"/>
                             <constraint firstItem="GdM-Wr-HT9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GS2-AB-0VV"/>
                             <constraint firstItem="GdM-Wr-HT9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GjA-sb-bJQ"/>
                             <constraint firstAttribute="bottom" secondItem="GdM-Wr-HT9" secondAttribute="bottom" id="KOM-Yp-2hv"/>
+                            <constraint firstItem="WNf-hB-dwa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="m1r-OA-nNr"/>
+                            <constraint firstAttribute="bottom" secondItem="bht-c1-nnG" secondAttribute="bottom" id="qmu-tV-lir"/>
+                            <constraint firstItem="uYU-rf-kyX" firstAttribute="top" secondItem="WNf-hB-dwa" secondAttribute="bottom" id="wVL-tS-7dw"/>
+                            <constraint firstItem="bht-c1-nnG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="x1K-ga-yKb"/>
+                            <constraint firstItem="bht-c1-nnG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="yQb-Oy-fgf"/>
                             <constraint firstItem="uYU-rf-kyX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zQG-wK-1h5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
