@@ -57,10 +57,13 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bht-c1-nnG" userLabel="Bottom Container">
                                 <rect key="frame" x="0.0" y="508" width="414" height="388"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzT-Y0-27e">
-                                        <rect key="frame" x="132" y="161" width="149" height="66"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzT-Y0-27e">
+                                        <rect key="frame" x="132.5" y="161" width="149" height="66"/>
                                         <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.68204195205479456" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="149" id="1pg-6k-Zqt"/>
+                                            <constraint firstAttribute="height" constant="66" id="adT-Go-e8J"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="80"/>
                                         <state key="normal" title="Roll">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -71,6 +74,10 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="tzT-Y0-27e" firstAttribute="centerX" secondItem="bht-c1-nnG" secondAttribute="centerX" id="R2W-0U-yn5"/>
+                                    <constraint firstItem="tzT-Y0-27e" firstAttribute="centerY" secondItem="bht-c1-nnG" secondAttribute="centerY" id="UYk-5i-BB7"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
